@@ -25,3 +25,4 @@ def store_node_path_attr(input_node, path_attr):
     if geo.findGlobalAttrib(path_attr) is None:
         geo.addAttrib(hou.attribType.Global, path_attr, '')
     geo.setGlobalAttribValue(path_attr, input_node.path())
+
